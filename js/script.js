@@ -39,6 +39,7 @@ document.getElementById('btn-case-plus').addEventListener('click',function(){
     // caseNumberField.value =newcaseNumber;
     const newcaseNumber = updatecaseNumber(true);
     updatecaseTotal(newcaseNumber);
+    calculateSubtotal()
    
 
 
@@ -52,4 +53,5 @@ document.getElementById('btn-case-minus').addEventListener('click',function(){
     // caseNumberField.value =newcaseNumber;
    const newcaseNumber = updatecaseNumber(false);
    updatecaseTotal(newcaseNumber);
+   calculateSubtotal()
 })
